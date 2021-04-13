@@ -27,6 +27,8 @@ class DetailActivity : AppCompatActivity() {
         var strMealThumb = intent.getStringExtra("strMealThumb")
         var strMeal = intent.getStringExtra("strMeal")
 
+        
+
         binding.productDescriptionText.text =  "Product Description : $strInstructions"
         binding.productCategory.text = "Product Category : $strMeal"
         binding.productName.text = "Product Name : $strArea"
